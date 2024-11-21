@@ -1,0 +1,19 @@
+name: linquebot_cr
+version: 0.1.0
+
+authors:
+  - Linca
+
+targets:
+  linquebot_cr:
+    main: src/main.cr
+
+crystal: '>= 1.14.0'
+
+license: MIT
+
+dependencies:
+  event_handler:
+    github: crystallabs/event_handler
+  http_proxy:
+    github: mamantoha/http_proxy

@@ -1,0 +1,2 @@
+module TelegramApi::Types
+end
